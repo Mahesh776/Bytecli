@@ -1,0 +1,48 @@
+# ByteCli
+.bytecli/
+*.bytecli
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Tests
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Type checking
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+.env.*
+*.pem
+*.key
+secrets.yaml
+secrets.json
+config.local.yaml
+config.local.json
